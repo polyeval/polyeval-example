@@ -1,7 +1,7 @@
 from polyeval import parse_questions, initialize_template
 import yaml
 
-with open("./tests/data/hello_world.yaml", "r") as file:
+with open("./data/hello_world.yaml", "r") as file:
     data = yaml.load(file, Loader=yaml.CLoader)
 
 template = initialize_template("./execution-templates", targets=list(data.keys()))
