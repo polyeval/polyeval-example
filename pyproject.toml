@@ -1,0 +1,10 @@
+[project]
+authors = [
+    {name = "hzfsls", email = "2508342095@qq.com"},
+]
+dependencies = [
+    "polyeval @ git+https://github.com/polyeval/polyeval",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
