@@ -10,3 +10,6 @@ __pypackages__/
 .venv
 
 .polyeval
+
+.direnv
+.envrv
